@@ -42,15 +42,25 @@ int main(void){
         printf("此數為偶數\n");
     else
         printf("此數為奇數\n");
-
-
-    
     
 
+    getchar();
+    printf("請按 Enter 繼續...\n");
+    getchar();
 
-
-
-
+    //求一整數絕對值
+    int num3;
+    printf("輸入一整數，得其絕對值\n");
+    scanf("%d",&num3);
+    
+    if( num3 > 0)
+        printf("%d\n",num3);
+    else if( num3 < 0){
+        num3 = -num3;
+        printf("%d\n",num3);
+    }
+    else
+        printf("0\n");c
 
     return 0;
 }
