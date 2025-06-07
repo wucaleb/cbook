@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main (void){
     //5.體重過重判斷90
-/*    int num;
+    int num;
     printf("輸入你的體重:\n");
     scanf("%d", &num);
     getchar(); // 清掉換行
@@ -105,7 +105,7 @@ int main (void){
     else if(X == 0 && Y != 0) printf("此數在Y軸\n");
     else if(X != 0 && Y == 0) printf("此數在X軸\n");
     else printf("此數在原點\n");
-*/
+
 
     return 0;
 }
