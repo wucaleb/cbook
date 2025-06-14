@@ -1,3 +1,4 @@
+//費氏數列
 #include<stdio.h>
 int fib(int);
 int main(){
