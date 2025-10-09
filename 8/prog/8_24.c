@@ -1,3 +1,4 @@
+/*利用define取代簡易函數*/
 #include<stdio.h>
 #define SQUARE n*n
 
