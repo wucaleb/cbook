@@ -1,12 +1,12 @@
 /*定義巨集*/
 #include<stdio.h>
-#define SQUARE(n) n*n
+#define SQUARE(X) X*X
 int main(void)
 {
-    int a;
+    int n;
     printf("Input an integert:");
-    scanf("%d", &a);
-    printf("%d * %d = %d\n",a,a,SQUARE(a));
+    scanf("%d", &n);
+    printf("%d * %d = %d\n",n,n,SQUARE(n));
 
     return 0;
 }
