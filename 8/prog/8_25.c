@@ -1,4 +1,4 @@
-/*定義巨集*/
+/*定義巨集SQUARE(X) X*X*/
 #include<stdio.h>
 #define SQUARE(X) X*X
 int main(void)
