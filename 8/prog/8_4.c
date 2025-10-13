@@ -1,6 +1,9 @@
+/*void（無回傳值）函數，但可接收整數與字元，並於螢幕上連續印出*/
 #include<stdio.h>
 void display(char, int);
-int main (){
+
+int main ()
+{
     int n;
     char ch;
 
@@ -11,9 +14,11 @@ int main (){
     display(ch,n);
     return 0;
 }
-void display(char ch, int n){
+void display(char ch, int n)
+{
     int i;
     for(i = 1;i <= n;i++)
         printf("%c",ch);
     printf("\n");
+    return ;
 }
