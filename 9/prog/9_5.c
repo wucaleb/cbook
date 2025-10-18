@@ -1,5 +1,7 @@
+/*比較陣列內原素質的大小*/
 #include<stdio.h>
-int main(void){
+int main(void)
+{
     int A[5] = {74, 48, 55, 64, 34};
     int i, min, max;
     min=max=A[0];

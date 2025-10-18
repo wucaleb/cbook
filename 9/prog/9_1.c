@@ -1,5 +1,7 @@
+/*基本一維陣列設定*/
 #include<stdio.h>
-int main(void){
+int main(void)
+{
     int i,score[4];
 
     score[0] = 78;
