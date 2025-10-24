@@ -1,12 +1,13 @@
 #include<stdio.h>
-#define MAX 5 //MAX=5
-int main(void){
+#define MAX 5 //定義MAX數值
+int main(void)
+{
     int score[MAX];
     int i = 0, num;
     int sum = 0;
 
     printf("請輸入成績，要結束時請輸入0：\n");
-    do
+    do                                              
     {
         if(i == MAX)
         {

@@ -1,7 +1,8 @@
+/*二維陣列的輸入與輸出*/
 #include<stdio.h>
 int main(void)
 {
-    int i,j,sale[2] [4],sum=0;
+    int i,j,sale[2] [4],sum = 0;    //i：業務員,j：銷售數量
 
     for(i = 0; i < 2; i++)
         for(j = 0; j < 4;j++)

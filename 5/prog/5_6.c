@@ -15,3 +15,7 @@ int main(void)
 
     return 0;
 }
+/*
+&&(AND) 例：a>0 && b>0  兩者皆為true，才做運算
+||(OR)  例：a>0 || b>0  只要有一true，便做運算
+*/

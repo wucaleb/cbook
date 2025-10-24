@@ -1,6 +1,6 @@
-
+/*輸入未定個數的資料到陣列裡*/
 #include<stdio.h>
-#define MAX 10
+#define MAX 10  //定義max的資料大小
 
 int main(void)
 {

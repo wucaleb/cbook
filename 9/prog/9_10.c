@@ -1,7 +1,9 @@
+/*矩陣的相加*/
 #include<stdio.h>
 #define ROW 2
 #define COL 3
-int main(void){
+int main(void)
+{
     int i,j;
     int A[ROW][COL]={{1,2,3},{4,5,6}};
     int B[ROW][COL]={{3,0,2},{3,5,7}};
@@ -13,5 +15,6 @@ int main(void){
             printf("%3d",A[i][j]+ B[i][j]);
         printf("\n");
     }
+
     return 0;
 }
