@@ -14,7 +14,10 @@ int main(void)
     return 0;
 }
 
-/* 
+/*輸出結果：
+&a = 0x7ff7b86d8e68, &ptr = 0x7ff7b86d8e58,ptr = 0x7ff7b86d8e68, *ptr = 5
+&b = 0x7ff7b86d8e64, &ptr = 0x7ff7b86d8e58,ptr = 0x7ff7b86d8e64, *ptr = 3
+
 指標變數的重新指向 (Repointing)
 本程式證明：指標 (ptr) 是一個變數，它可以隨時改變，指向不同的目標變數。
 ---------------------------------------------

@@ -11,4 +11,6 @@ int main(void)
     return 0;
 }
 
-/**/
+/*輸出結果：
+num = 20, &num = 0x7ff7b48ece5c
+*ptr = 20,  ptr = 0x7ff7b48ece5c, &ptr = 0x7ff7b48ece60*/
