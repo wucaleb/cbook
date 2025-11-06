@@ -9,6 +9,7 @@ int main(void)
     printf("array a = ");
     for(i = 0;i < SIZE;i++)     
         printf("%d ", a[i]);
+        
     ptr = maximum(a);           //*ptr 用來接收 maximum 函數回傳的地址(ptr指向maximum)
     printf("\nmaximum = %d\n", *ptr);
 
